@@ -72,7 +72,7 @@ def status_do_jogo():
     print(tentativas, 'tentativas restante.\nBoa sorte!!!')
 
 def escolha_senha_1():
-    senha = input('Escolha 4 cores dentre:\namarelo, verde, azul, roxo, vermelho, laranjado. \nAs cores não podem ser repetidas.\nDigite as cores separadas por"," e sem espaços.\n\nDigite a senha:').lower().split(',')
+    senha = input('\nSenha inválida! \nEscolha 4 cores dentre:\namarelo, verde, azul, roxo, vermelho, laranjado. \nAs cores não podem ser repetidas.\nDigite as cores separadas por"," e sem espaços.\n\nDigite a senha:').lower().split(',')
     return senha
 
 def escolha_senha_2():
